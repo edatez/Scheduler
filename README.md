@@ -24,6 +24,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+Here is a screenshot from my application; (./Assets/Pictures/screenshot_Scheduler.PNG)
 
 The following animation demonstrates the application functionality:
 
