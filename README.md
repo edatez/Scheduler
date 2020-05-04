@@ -24,7 +24,7 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
-Here is a screenshot from my application; (./Assets/images/screenshot_Scheduler.PNG)
+Here is a screenshot from my application; ![day planner screenshot](./Assets/images/screenshot_Scheduler.PNG)
 
 
 The following animation demonstrates the application functionality:
