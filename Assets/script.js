@@ -2,7 +2,6 @@
 $("#currentDay").text(moment().format("MMMM Do YYYY, h:mm:ss a"));
 console.log(currentDay);
 
-
 // Getting the current hour and format it.
 var currentHour = moment().hour();
 console.log(currentHour);
@@ -33,6 +32,8 @@ for (var i = 9; i < 18; i++) {
     }
 }
 
+
+
 saveButtons.on('click', function () {
 
     //Referencing that specific button by calling 'this' inside of a shared call back function ,
@@ -50,13 +51,12 @@ saveButtons.on('click', function () {
     console.log(tasks)
     // localStorage.setItem ('task-' +buttonHour, taskInput.val() ); 
     localStorage.setItem('tasks', JSON.stringify(tasks));
-
-
 });
 
 // show the info on the DOM
 
-// var storedTasks = JSON.parse(localStorage.getItem('tasks') );
+// var storedTasks = J
+SON.parse(localStorage.getItem('tasks') );
 // if (storedTasks ) {
 //     tasks = storedTasks;
 // }
