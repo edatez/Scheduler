@@ -1,5 +1,6 @@
 # Scheduler
 A simple calendar application that allows the user to save events for each hour of the workday day from 9AM to 5PM. This app runs in the browser and features dynamically updated HTML and CSS powered by jQuery.
+https://edatez.github.io/Scheduler/
 
 This application uses jquery and moment.js, and Bootstrap.
 
